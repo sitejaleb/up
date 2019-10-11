@@ -1,0 +1,1 @@
+document.onkeydown=function(event){    var MoisrexCharCodeMir=(event.which)?event.which:event.keyCode;    if(MoisrexCharCodeMir==85 && event.ctrlKey==true){        event.preventDefault();        return false;    }};
